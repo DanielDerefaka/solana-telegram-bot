@@ -180,7 +180,7 @@ bot.command("start", async (ctx) => {
     const walletBalance = await getBalance(walletAddress);
 
     ctx.reply(
-      `🚀 SolTradingBot: Your Gateway to Solana DeFi 🤖\n\n` +
+      `🚀 SolDxBot: Your Gateway to Solana DeFi 🤖\n\n` +
         `Telegram | Twitter | Website\n\n` +
         `💎 SOL: $${solPrice}\n\n` +
         `Your First Wallet\n` +
